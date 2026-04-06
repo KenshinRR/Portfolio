@@ -79,6 +79,8 @@
 {
     min-height: 30vh;
     width: 80%;
+    border-top: 5px dotted var(--tertiary_color);
+    margin: 10px;
 }
 
 .demo_embed
