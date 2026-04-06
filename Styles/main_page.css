@@ -80,3 +80,10 @@
     min-height: 30vh;
     width: 80%;
 }
+
+.demo_embed
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
