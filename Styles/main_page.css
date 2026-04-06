@@ -1,0 +1,82 @@
+:root
+{
+    --primary_color: rgb(84, 107, 65);
+    --secondary_color: rgb(153, 173, 122);
+    --tertiary_color: rgb(220, 204, 172);
+    --text_color: rgb(255, 248, 236);  
+}
+
+.main_body
+{
+    background-color: var(--primary_color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text_color);
+}
+
+.header_bar_container
+{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: var(--secondary_color);
+    height: 20vh;
+    min-height: 40px;
+    max-height: 100px;
+    z-index: 2;
+    gap: 10px;
+    font-size: 90%;
+}
+
+.header_container
+{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80vw;
+    height: 100%;
+}
+
+.header_name
+{
+    flex-direction: column;
+    height: 100%;
+}
+
+.header_buttons
+{
+    border-radius: 10%;
+    font-size: 120%;
+    background-color: var(--tertiary_color);
+}
+
+.about_me_details
+{
+    margin-left: 30px;
+}
+
+.sections
+{
+    font-size: xx-large;
+    width: 90vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid var(--tertiary_color);
+    margin: 100px;
+}
+
+.project_container
+{
+    min-height: 30vh;
+    width: 80%;
+}

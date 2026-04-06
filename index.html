@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenshin R. Reblando Portfolio</title>
+    <link rel="stylesheet" href="Styles/main_page.css">
+</head>
+<body class="main_body">
+    <div class="header_bar_container">
+        <div class="header_container">
+            <div class="header_name">
+                <h1>Kenshin R. Reblando</h1>
+                <h2>Game Developer</h2>
+            </div>
+            <div>
+                <button 
+                class="header_buttons"
+                onclick="document.getElementById('about_me').scrollIntoView({behavior: 'smooth'});">
+                    About Me
+                </button>
+                <button 
+                class="header_buttons"
+                onclick="document.getElementById('skills_and_tools').scrollIntoView({behavior: 'smooth'});">
+                    Skills and Tools
+                </button>
+                <button 
+                class="header_buttons"
+                onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'});">
+                    My Projects
+                </button>
+            </div>
+        </div>
+    </div>
+    <section class="about_me sections" id="about_me">
+        <img src="View/My Pic.jpg" width="400" height="400">
+        <div class="about_me_details">
+            <h1>Kenshin R. Reblando</h1>
+            <h2>Game Developer</h2>
+            <p>
+                I am currently a 4th year undergraduate student in De La Salle University Laguna Campus.
+                Studying a Bachelor's of Science in Interactive Entertainment Major in Game Development and a Minor in Marketing Environments.
+                <br><br>Worked for and led two game development groups called Untitled Studios and SnapTurt Studios. 
+                Made a grid-based strategy game with multiple playable characters and a game that uses motion capture to track face landmarks, body poses, and hand gentures.
+                <!-- Made music of various genres including rock, 8bit, and pop. -->
+                <br><br>Develops games, softwares, and websites with langauges such as C, C++, C#, Python, and JavaScript.
+                Experienced with game development engines such as Unity and Godot.
+            </p>
+        </div>
+    </section>
+    <section class="skills_and_tools sections" id="skills_and_tools">
+        <h1>Skills and Tools</h1>
+        <h2>Game Engines</h2>
+        <ul>
+            <li>Unity</li>
+            <li>Godot</li>
+        </ul>
+        <h2>Languages</h2>
+        <ul>
+            <li>C#</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>GDScript</li>
+        </ul>
+    </section>
+    <section class="projects sections" id="projects">
+        <h1>Projects</h1>
+        <div class="project_container">
+            <h2>Let Them Cook</h2>
+            <p>A game about...</p>
+            <h3>My Role</h3>
+        </div>
+    </section>
+</body>
+</html>
