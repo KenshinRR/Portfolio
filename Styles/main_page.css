@@ -15,8 +15,7 @@
     color: var(--text_color);
 }
 
-.header_bar_container
-{
+.header_bar_container {
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -34,8 +33,7 @@
     font-size: 90%;
 }
 
-.header_container
-{
+.header_container {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
